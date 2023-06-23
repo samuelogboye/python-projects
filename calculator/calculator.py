@@ -5,6 +5,7 @@ import math
 def main():
     while True:
         try:
+            print("Hi Sweet, welcome to this calculator")
             first_number = float(input("Enter the first number: "))
             print("Select the operation you wish to perform:")
             print("1. Addition (+)")
@@ -61,10 +62,10 @@ def main():
                     print("Thanks for using this calculator")
                     break
         except ValueError:
-            print("You got value error")
+            print("Hi Sweet, You got value error")
             exit()
-        except zeroDivisionError:
-            print("You can divide by Zero")
+        except ZeroDivisionError:
+            print("Hi Sweet, You can't divide by Zero")
             exit()
 
 
