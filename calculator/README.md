@@ -1,5 +1,5 @@
 # Calculator
-![Calculator](calculator_image.jpg)
+![Calculator](calculator.png)
 
 This project is an advanced calculator implemented using Python. It provides a user-friendly interface for performing basic arithmetic operations as well as advanced mathematical functions. Whether you're a beginner or an experienced Python enthusiast, this calculator will unleash your coding prowess.
 
