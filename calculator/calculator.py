@@ -43,11 +43,11 @@ def main():
                 elif advanced_operand == 2:
                     result = math.log(first_number)
                 elif advanced_operand == 3:
-                    result = math.sin(first_number)
+                    result = math.sin(math.radians(first_number))
                 elif advanced_operand == 4:
-                    result = math.cos(first_number)
+                    result = math.cos(math.radians(first_number))
                 elif advanced_operand == 5:
-                    result = math.tan(first_number)
+                    result = math.tan(math.radians(first_number))
                 else:
                     print("Invalid Operand, please try again")
             elif operand == 7:
